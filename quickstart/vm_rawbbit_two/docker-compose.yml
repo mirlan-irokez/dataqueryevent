@@ -174,7 +174,7 @@ services:
       - no-new-privileges:true
 
   metabase:
-    image: metabase/metabase:v0.61.4.6
+    image: metabase/metabase:v0.63.16
     restart: unless-stopped
     logging: *default-logging
     environment:
